@@ -26,9 +26,9 @@ public class Problem2 {
         }
         if(n>0 && r>0 && n>=r){
         x = n/r;
-        System.out.println("Totalclasses : "+x);
+        System.out.println("Total Class : "+x);
         
-            for (int i = 1; i <= x; i++) {
+            for (int i = 1 ; i <= x ; i++) {
                 System.out.println("Days "+i);
             }
 }
